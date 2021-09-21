@@ -40,6 +40,14 @@ class HomePageState extends State<HomePage> {
                   Navigator.of(context).pushReplacementNamed('/');
                 },
               ),
+              ListTile(
+                leading: Icon(Icons.home),
+                title: Text('Tinder'),
+                subtitle: Text('Desafio tela Tinder'),
+                onTap: () {
+                  Navigator.of(context).pushReplacementNamed('/tinder');
+                },
+              ),
             ],
           ),
         ),
