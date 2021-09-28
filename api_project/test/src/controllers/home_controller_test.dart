@@ -26,3 +26,6 @@ main() {
 
   });
 }
+
+when(fetchTodos) {
+}
